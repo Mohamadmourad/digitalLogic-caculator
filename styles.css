@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    Box-sizing: border-box;
+    Scroll-behavior:smooth;
+}
+
+body{
+    background-color: #EBE76C;
+    color: #ED7B7B;
+}
+
+header{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.root{
+    display: flex;
+    margin-top: 100px;
+    height: 120px;
+}
+
+.root div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.root p{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.root select{
+    width: 100px;
+    height: 30px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #836096;
+    color: white;
+    font-weight: bold;
+}
+
+.left{
+    border-right: solid;
+}
+
+.submitArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.submitArea button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    background-color: #ED7B7B;
+    color: white;
+    margin-top: 50px;
+}
+
+.submitArea button:active{
+    background-color: #ED7B7B;
+    transform: scale(0.9);
+}
+
+.submitArea p{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submitArea input{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #836096;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.submitArea input::placeholder{
+    font-weight: bold;
+    color: rgb(198, 195, 195); 
+}
+
+.credit{
+    font-weight: 700;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 7px;
+    margin-bottom: 10px;
+    color: #836096;
+}
+
+.credit p{
+    color: #337CCF;
+}
